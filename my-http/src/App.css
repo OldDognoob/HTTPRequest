@@ -1,25 +1,26 @@
 * {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
   box-sizing: border-box;
 }
 
 .App {
   text-align: center;
-}
+  background-image:url("./image/olga-thelavart-uP4jLndMWnY-unsplash.jpg");
+  /* height: 100%; */
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #586580;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,18 +28,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
 .reminder-wrapper {
   display: flex;
   align-items: center;
 }
 
 .reminder-container {
-  width: 30em;
+  width: 10em;
   height: 2em;
   display: flex;
   color: #000;
